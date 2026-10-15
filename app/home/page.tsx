@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { instagramUrl } from "@/lib/site";
-import { homeContent as content, type Photo } from "./content";
+import { conteudoHome as content, type Photo } from "./content";
 import "./home.css";
 
 const contact = content.whatsappUrl ?? instagramUrl;
@@ -120,27 +120,27 @@ export default function Home() {
               Trabalhamos apenas <br /> com a mais alta qualidade.
             </p>
           </div>
-          <div className="pieces-grid">
-            {content.pieces.slice(0, 4).map((piece, index) => (
-              <article className="piece-card" key={index}>
+          <div className="roupas-grid">
+            {content.roupas.slice(0, 4).map((roupa, index) => (
+              <article className="roupa-card" key={index}>
                 <PhotoSlot
-                  photo={piece.photo}
+                  photo={roupa.photo}
                   label={`Foto da peça ${String(index + 1).padStart(2, "0")}`}
-                  className="piece-photo"
+                  className="roupa-photo"
                 />
-                <div className="piece-meta">
+                <div className="roupa-meta">
                   <div>
-                    <span className="piece-number">
+                    <span className="roupa-number">
                       DESTAQUE / {String(index + 1).padStart(2, "0")}
                     </span>
-                    <h3>{piece.name ?? "Nome da peça a confirmar"}</h3>
+                    <h3>{roupa.name ?? "Nome da peça a confirmar"}</h3>
                   </div>
                   <a
                     href={contact}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label={`${contactLabel} — ${piece.name ?? `peça ${index + 1}`}`}
-                    className="piece-link"
+                    aria-label={`${contactLabel} — ${roupa.name ?? `peça ${index + 1}`}`}
+                    className="roupa-link"
                   >
                     ↗
                   </a>
@@ -246,7 +246,7 @@ export default function Home() {
               Quer saber mais sobre as peças ou planejar uma visita? Fale com a
               New Flow.
             </p>
-             <div className="visit-actions">
+            <div className="visit-actions">
               {content.mapsUrl && (
                 <a
                   className="text-link"
@@ -275,7 +275,7 @@ export default function Home() {
             </div>
             <div>
               <span>ENDEREÇO</span>
-              <p>{content.address ?? "Endereço a confirmar com a loja"}</p>
+              <p>{content.endereco ?? "Endereço a confirmar com a loja"}</p>
             </div>
           </div>
 

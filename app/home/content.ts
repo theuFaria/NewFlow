@@ -1,12 +1,19 @@
-export type Photo = { src: string; alt: string } | null;
-type Piece = { name: string | null; photo: Photo };
+export type Photo = {
+  src: string;
+  alt: string
+} | null;
 
-type HomeContent = {
-  hero: Photo;
-  store: Photo;
-  pieces: Piece[];
+type roupa = {
+  name: string | null;
+  photo: Photo
+ };
+
+interface conteudoHome {
+  hero: Photo; // Foto principal da home / capa
+  store: Photo; // Foto da loja
+  roupas: roupa[]; // lista de objetos de tipo roupa
   looks: Photo[];
-  address: string | null;
+  endereco: string | null;
   hours: string | null;
   mapsUrl: string | null;
   mapsEmbedUrl: string | null;
@@ -15,10 +22,10 @@ type HomeContent = {
 
 // As fotos dos looks vieram do perfil público @newflowmodafitness.
 // PENDENTE: inserir fotos reais da loja e confirmar os dados de visita e contato.
-export const homeContent: HomeContent = {
-  hero: null, // Ex.: { src: "/images/loja-hero.jpg", alt: "Interior da loja New Flow" }
-  store: null, // Ex.: { src: "/images/loja.jpg", alt: "Espaço da New Flow" }
-  pieces: [
+export const conteudoHome: conteudoHome = {
+  hero: null, 
+  store: null,
+  roupas: [
     {
       name: "Macacão preto",
       photo: {
@@ -55,7 +62,7 @@ export const homeContent: HomeContent = {
       alt: "Look com top e short cinza visto de costas",
     },
   ],
-  address: "Travessa Jordão Galindo, 39 - Centro, Angra dos Reis - RJ",
+  endereco: "Travessa Jordão Galindo, 39 - Centro, Angra dos Reis - RJ",
   hours: "9h00 até as 18h30",
   mapsUrl: "https://maps.app.goo.gl/u8nUbYby4YEdYGXJ7",
   mapsEmbedUrl:

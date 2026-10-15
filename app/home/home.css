@@ -177,6 +177,8 @@
 
 .section {
   padding: clamp(75px, 8vw, 130px) 0;
+  padding-top: clamp(50px,5vw,100px);
+  padding-bottom: clamp(50px,5vw,100px);
 }
 
 .section-heading {
@@ -204,7 +206,7 @@
   text-align: end;
 }
 
-.pieces-grid {
+.roupas-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
@@ -222,7 +224,7 @@
   transition: transform .5s ease;
 }
 
-.piece-card:hover img,
+.roupa-card:hover img,
 .look-photo:hover img {
   transform: scale(1.035);
 }
@@ -261,12 +263,12 @@
   margin-bottom: 12px;
 }
 
-.piece-photo {
+.roupa-photo {
   aspect-ratio: 4 / 4.65;
   border-radius: 4px;
 }
 
-.piece-meta {
+.roupa-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -274,21 +276,21 @@
   padding: 21px 0 10px;
 }
 
-.piece-number {
+.roupa-number {
   font-size: 10px;
   color: #b8520d;
   font-weight: 700;
   letter-spacing: .14em;
 }
 
-.piece-meta h3 {
+.roupa-meta h3 {
   margin: 7px 0 0;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: -.02em;
 }
 
-.piece-link {
+.roupa-link {
   flex: 0 0 43px;
   height: 43px;
   display: grid;
@@ -300,7 +302,7 @@
   transition: background .2s ease, color .2s ease;
 }
 
-.piece-link:hover {
+.roupa-link:hover {
   background: var(--accent);
   color: white;
 }
@@ -376,7 +378,7 @@
 .visit-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 10%;
+  column-gap: 5%;
   row-gap: clamp(32px, 5vw, 64px);
 }
 
@@ -424,7 +426,6 @@
 }
 
 .visit-map {
-  display: block;
   width: 100%;
   height: 250px;
   border: 0;
@@ -459,7 +460,7 @@
     width: 25%;
   }
 
-  .pieces-grid {
+  .roupas-grid {
     gap: 16px;
   }
 }
@@ -552,25 +553,25 @@
     margin-top: 18px;
   }
 
-  .pieces-grid {
+  .roupas-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px 12px;
   }
 
-  .piece-photo {
+  .roupa-photo {
     aspect-ratio: 4 / 5;
   }
 
-  .piece-meta {
+  .roupa-meta {
     align-items: flex-start;
   }
 
-  .piece-meta h3 {
+  .roupa-meta h3 {
     font-size: 13px;
     line-height: 1.4;
   }
 
-  .piece-link {
+  .roupa-link {
     flex-basis: 36px;
     height: 36px;
   }
@@ -578,7 +579,8 @@
   .about-grid,
   .visit-grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    align-items: center;
+    gap: 18px;
   }
 
   .visit-map {
@@ -605,7 +607,7 @@
 }
 
 @media (max-width: 390px) {
-  .pieces-grid {
+  .roupas-grid {
     grid-template-columns: 1fr;
   }
 }
