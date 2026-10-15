@@ -1,0 +1,477 @@
+[
+  {
+    "id": "59360003",
+    "sku": "59360003",
+    "name": "BABY DOLL CETIN 1870 HOPE",
+    "slug": "baby-doll-cetin-1870-hope-59360003",
+    "description": null,
+    "priceInCents": 33990,
+    "stock": 0,
+    "images": [
+      "/images/products/59360003.webp"
+    ],
+    "category": "Moda íntima",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "58880004",
+    "sku": "58880004",
+    "name": "BABYDOLL 75A02 PAULIENE",
+    "slug": "babydoll-75a02-pauliene-58880004",
+    "description": null,
+    "priceInCents": 21990,
+    "stock": 0,
+    "images": [
+      "/images/products/58880004.webp"
+    ],
+    "category": "Moda íntima",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "58120001",
+    "sku": "58120001",
+    "name": "BERMUDA AMAZ. LONG  080432 PLIE",
+    "slug": "bermuda-amaz-long-080432-plie-58120001",
+    "description": null,
+    "priceInCents": 21990,
+    "stock": -2,
+    "images": [
+      "/images/products/58120001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "3140",
+    "sku": "3140",
+    "name": "BERMUDA ANA JULIA CCM",
+    "slug": "bermuda-ana-julia-ccm-3140",
+    "description": null,
+    "priceInCents": 21900,
+    "stock": 3,
+    "images": [
+      "/images/products/3140.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "32090001",
+    "sku": "32090001",
+    "name": "BERMUDA BIKER 3023700 HOPE",
+    "slug": "bermuda-biker-3023700-hope-32090001",
+    "description": null,
+    "priceInCents": 19990,
+    "stock": 7,
+    "images": [
+      "/images/products/32090001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "31360001",
+    "sku": "31360001",
+    "name": "BERMUDA BIKER ELITE 129406",
+    "slug": "bermuda-biker-elite-129406-31360001",
+    "description": null,
+    "priceInCents": 15690,
+    "stock": 6,
+    "images": [
+      "/images/products/31360001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "30980001",
+    "sku": "30980001",
+    "name": "BERMUDA BIKER SANTUÁ BM02",
+    "slug": "bermuda-biker-santua-bm02-30980001",
+    "description": null,
+    "priceInCents": 15990,
+    "stock": 8,
+    "images": [
+      "/images/products/30980001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "32710001",
+    "sku": "32710001",
+    "name": "BERMUDA C/BOLSO 311540 HOPE",
+    "slug": "bermuda-c-bolso-311540-hope-32710001",
+    "description": null,
+    "priceInCents": 24990,
+    "stock": 12,
+    "images": [
+      "/images/products/32710001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "30960001",
+    "sku": "30960001",
+    "name": "BERMUDA C/BOLSO SANTUÁ BM82",
+    "slug": "bermuda-c-bolso-santua-bm82-30960001",
+    "description": null,
+    "priceInCents": 14990,
+    "stock": 4,
+    "images": [
+      "/images/products/30960001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "32800004",
+    "sku": "32800004",
+    "name": "BERMUDA C/BOLSOS MISTI 371340 HOPE",
+    "slug": "bermuda-c-bolsos-misti-371340-hope-32800004",
+    "description": null,
+    "priceInCents": 23990,
+    "stock": 5,
+    "images": [
+      "/images/products/32800004.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "51400003",
+    "sku": "51400003",
+    "name": "BERMUDA C/ENCHIMENTO",
+    "slug": "bermuda-c-enchimento-51400003",
+    "description": null,
+    "priceInCents": 18990,
+    "stock": -3,
+    "images": [
+      "/images/products/51400003.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "2516",
+    "sku": "2516",
+    "name": "BERMUDA CICLISTA  SANTUA T: G1; COR: VERMELHO",
+    "slug": "bermuda-ciclista-santua-t-g1-cor-vermelho-2516",
+    "description": null,
+    "priceInCents": 12987,
+    "stock": 0,
+    "images": [
+      "/images/products/2516.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "G1"
+    ],
+    "sizesSource": "name",
+    "colors": [
+      "VERMELHO"
+    ],
+    "colorsSource": "name",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "5814",
+    "sku": "5814",
+    "name": "BERMUDA CINTA COMPRESSION PLIE",
+    "slug": "bermuda-cinta-compression-plie-5814",
+    "description": null,
+    "priceInCents": 49990,
+    "stock": 0,
+    "images": [
+      "/images/products/5814.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "2444",
+    "sku": "2444",
+    "name": "BERMUDA COM BOLSO SANTUA T: G1; COR: FUCSIA",
+    "slug": "bermuda-com-bolso-santua-t-g1-cor-fucsia-2444",
+    "description": null,
+    "priceInCents": 11729,
+    "stock": 1,
+    "images": [
+      "/images/products/2444.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "G1"
+    ],
+    "sizesSource": "name",
+    "colors": [
+      "FUCSIA"
+    ],
+    "colorsSource": "name",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "2445",
+    "sku": "2445",
+    "name": "BERMUDA COM BOLSO SANTUA T: G; COR: CHUMBO",
+    "slug": "bermuda-com-bolso-santua-t-g-cor-chumbo-2445",
+    "description": null,
+    "priceInCents": 11729,
+    "stock": 0,
+    "images": [
+      "/images/products/2445.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "G"
+    ],
+    "sizesSource": "name",
+    "colors": [
+      "CHUMBO"
+    ],
+    "colorsSource": "name",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "2443",
+    "sku": "2443",
+    "name": "BERMUDA COM BOLSO SANTUA T: P; COR: FUCSIA",
+    "slug": "bermuda-com-bolso-santua-t-p-cor-fucsia-2443",
+    "description": null,
+    "priceInCents": 11729,
+    "stock": 1,
+    "images": [
+      "/images/products/2443.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P"
+    ],
+    "sizesSource": "name",
+    "colors": [
+      "FUCSIA"
+    ],
+    "colorsSource": "name",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "2448",
+    "sku": "2448",
+    "name": "BERMUDA COM BOLSO T: G; COR: PRETO",
+    "slug": "bermuda-com-bolso-t-g-cor-preto-2448",
+    "description": null,
+    "priceInCents": 12347,
+    "stock": 0,
+    "images": [
+      "/images/products/2448.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "G"
+    ],
+    "sizesSource": "name",
+    "colors": [
+      "PRETO"
+    ],
+    "colorsSource": "name",
+    "isAvailable": false,
+    "isDemo": true
+  },
+  {
+    "id": "32100001",
+    "sku": "32100001",
+    "name": "BERMUDA COS ALTO 332240 HOPE",
+    "slug": "bermuda-cos-alto-332240-hope-32100001",
+    "description": null,
+    "priceInCents": 19990,
+    "stock": 3,
+    "images": [
+      "/images/products/32100001.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "30710002",
+    "sku": "30710002",
+    "name": "BERMUDA DUNA 34130 HOPE",
+    "slug": "bermuda-duna-34130-hope-30710002",
+    "description": null,
+    "priceInCents": 19990,
+    "stock": 3,
+    "images": [
+      "/images/products/30710002.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  },
+  {
+    "id": "26370008",
+    "sku": "26370008",
+    "name": "BERMUDA ELITE 129129",
+    "slug": "bermuda-elite-129129-26370008",
+    "description": null,
+    "priceInCents": 10990,
+    "stock": 10,
+    "images": [
+      "/images/products/26370008.webp"
+    ],
+    "category": "Fitness",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesSource": "demo",
+    "colors": [],
+    "colorsSource": "none",
+    "isAvailable": true,
+    "isDemo": true
+  }
+]

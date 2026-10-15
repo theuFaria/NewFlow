@@ -194,44 +194,6 @@ export default function Home() {
       </section>
 
       <section
-        className="section"
-        id="inspiracao"
-        aria-labelledby="inspiration-title"
-      >
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <span className="section-kicker">03 / IDEIAS PARA VOCÊ</span>
-              <h2 id="inspiration-title">
-                Inspire seu <em>próximo look.</em>
-              </h2>
-            </div>
-            <p>
-              Combinações para descobrir, experimentar e fazer do seu jeito.
-            </p>
-          </div>
-          <div className="looks-grid">
-            {content.looks.map((photo, index) => (
-              <PhotoSlot
-                key={index}
-                photo={photo}
-                label={`Look ${String(index + 1).padStart(2, "0")}`}
-                className="look-photo"
-              />
-            ))}
-          </div>
-          <a
-            className="text-link"
-            href={instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mais inspirações no Instagram <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </section>
-
-      <section
         className="section section-visit"
         id="loja"
         aria-labelledby="visit-title"

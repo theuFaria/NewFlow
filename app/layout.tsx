@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./catalogo/catalogo.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { CartProvider } from "@/components/cart/CartProvider";
+import CartDrawer from "@/components/cart/CartDrawer";
 
 export const metadata: Metadata = {
   title: "New Flow Moda Fitness | Seu movimento. Seu estilo.",
@@ -15,14 +18,17 @@ export default function Layout({
   return (
     <html lang="pt-BR">
       <body>
-        <a className="skip-link" href="#conteudo">
-          Pular para o conteúdo
-        </a>
-        <header>
-          <Navbar />
-        </header>
-        <main id="conteudo">{children}</main>
-        <Footer />
+        <CartProvider>
+          <a className="skip-link" href="#conteudo">
+            Pular para o conteúdo
+          </a>
+          <header>
+            <Navbar />
+          </header>
+          <main id="conteudo">{children}</main>
+          <Footer />
+          <CartDrawer />
+        </CartProvider>
       </body>
     </html>
   );

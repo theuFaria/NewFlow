@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { instagramUrl } from "@/lib/site";
+import CartTrigger from "@/components/cart/CartTrigger";
 
 const links = [
   { label: "Início", href: "/#inicio" },
   { label: "Destaques", href: "/#destaques" },
   { label: "Sobre", href: "/#sobre" },
-  { label: "Inspiração", href: "/#inspiracao" },
-  { label: "Loja", href: "/#loja" },
+  { label: "Loja", href: "/catalogo" },
+  { label: "Localização", href: "/#loja" },
 ];
 
 export default function Navbar() {
@@ -18,7 +19,7 @@ export default function Navbar() {
           href="/#inicio"
           aria-label="New Flow Moda Fitness, início"
         >
-          NEW FLOW<span>MODA FITNESS</span>
+          <span>NEW FLOW</span> <span>MODA FITNESS</span>
         </Link>
         <ul className="nav-links">
           {links.map(({ label, href }) => (
@@ -27,6 +28,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+        <CartTrigger />
         <a
           className="nav-contact"
           href={instagramUrl}
