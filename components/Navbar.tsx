@@ -2,11 +2,11 @@ import Link from "next/link";
 import { instagramUrl } from "@/lib/site";
 
 const links = [
-  { label: "Início", href: "/#inicio" },
-  { label: "Destaques", href: "/#destaques" },
+  { label: "Início", href: "/home" },
+  // { label: "Destaques", href: "/#destaques" },
   { label: "Sobre", href: "/#sobre" },
-  { label: "Inspiração", href: "/#inspiracao" },
-  { label: "Loja", href: "/#loja" },
+  // { label: "Inspiração", href: "/#inspiracao" },
+  { label: "Loja", href: "/catalogo" },
 ];
 
 export default function Navbar() {

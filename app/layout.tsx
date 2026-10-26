@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Poppins } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "New Flow Moda Fitness | Seu movimento. Seu estilo.",
@@ -9,19 +10,26 @@ export const metadata: Metadata = {
     "Conheça a New Flow e encontre moda fitness para acompanhar sua rotina.",
 };
 
-export default function Layout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: "400",
+});
+
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>
-        <a className="skip-link" href="#conteudo">
-          Pular para o conteúdo
-        </a>
+      <head>
+        <link
+          rel="shortcut icon"
+          href="./images/icon.svg"
+          type="image/x-icon"
+        />
+      </head>
+      <body className={poppins.className}>
         <header>
           <Navbar />
         </header>
-        <main id="conteudo">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>

@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+# scripts locais de teste manual (qualquer pasta)
+teste.ts
+
 # next.js
 /.next/
 /out/

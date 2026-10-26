@@ -1,24 +1,10 @@
+@import "tailwindcss";
+
 :root {
   --page-background: #fffdfa;
   --page-ink: #171717;
   --page-gutter: 80px;
   --accent: #e85f09;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url(fonts/Poppins-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url(fonts/Poppins-Bold.ttf);
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
 }
 
 html {
