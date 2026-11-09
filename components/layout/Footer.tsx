@@ -13,7 +13,7 @@ export default function Footer() {
           NEW FLOW<span>MODA FITNESS</span>
         </Link>
         <span>Movimento e estilo, do seu jeito.</span>
-        <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
+        <a href={instagramUrl} target="_blank" rel="instagram">
           Instagram ↗
         </a>
       </div>

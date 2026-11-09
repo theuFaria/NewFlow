@@ -10,6 +10,8 @@ export function mapperProduto(produto: ProdutoApi): Produto {
   result.codigo_interno = produto.codigo_interno.trim();
   if (produto.fotos.length >= 1) {
     result.fotos = produto.fotos;
+  } else {
+    result.fotos = [];
   }
 
   return result;

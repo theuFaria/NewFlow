@@ -1,8 +1,8 @@
 import { ApiResponse } from "@/types/apiResponse";
 import { apiRequest } from "./cliente";
-import { GrupoProduto, ProdutoApi } from "@/types/produto/produtoApi";
+import { ProdutoApi } from "@/types/produto/produtoApi";
 import { Produto } from "@/types/produto/produto";
-import { mapperProdutos } from "../mapper/produto";
+import { mapperProduto } from "../mapper/produto";
 
 type Loja = "NEWFLOW" | "INTIMIDADE";
 
@@ -46,8 +46,10 @@ export async function unificarProdutos(
   });
 
   const somenteIntimidade = produtosIntimidade.filter((produto) => {
-    !produtosNewFlow.some(
-      (outro) => produto.codigo_interno === outro.codigo_interno,
+    return !produtosNewFlow.some(
+      (outro) =>
+        produto.codigo_interno !== "" &&
+        produto.codigo_interno === outro.codigo_interno,
     );
   });
 
@@ -57,10 +59,17 @@ export async function unificarProdutos(
 export async function getProdutoLojaById(
   id: number,
   loja: Loja,
-): Promise<ProdutoApi> {
-  const response: ApiResponse<ProdutoApi> = await apiRequest(
-    `produtos/${id}?loja_id=${escolherLoja(loja)}`,
+): Promise<Produto> {
+  const response = await apiRequest<ProdutoApi[]>(
+    `produtos?id=${id}&loja_id=${escolherLoja(loja)}`,
     "GET",
   );
-  return response.data;
+
+  const produto = response.data.find((produto) => produto.id == String(id));
+
+  if (!produto) {
+    throw new Error(`Produto ${id} não encontrado`);
+  }
+
+  return mapperProduto(produto);
 }

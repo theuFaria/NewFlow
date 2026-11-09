@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { Poppins } from "next/font/google";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "New Flow Moda Fitness | Seu movimento. Seu estilo.",
@@ -10,22 +10,19 @@ export const metadata: Metadata = {
     "Conheça a New Flow e encontre moda fitness para acompanhar sua rotina.",
 };
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "600", "700"],
+  variable: "--font-inter",
 });
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
       <head>
-        <link
-          rel="shortcut icon"
-          href="./images/icon.svg"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/images/icon.svg" type="image/x-icon" />
       </head>
-      <body className={poppins.className}>
+      <body className={`${inter.className}`}>
         <header>
           <Navbar />
         </header>

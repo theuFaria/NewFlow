@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+  --color-secondary: #71736C;
+  --color-accent: #e85f09;
+}
+
 :root {
   --page-background: #fffdfa;
   --page-ink: #171717;
   --page-gutter: 80px;
-  --accent: #e85f09;
 }
 
 html {

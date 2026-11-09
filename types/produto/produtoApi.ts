@@ -10,6 +10,19 @@ export type ProdutoApi = {
   valores: unknown[];
   fotos: [];
   atributos: [];
+  variacoes: variacao[];
+};
+
+type variacao = {
+  variacao: {
+    id: string;
+    codigo: string;
+    nome: string;
+    estoque: number;
+    valores: {
+      valor_venda: number;
+    };
+  };
 };
 
 export type GrupoProduto = {
